@@ -8,6 +8,6 @@ set AIR_TARGET=
 set OPTIONS=-tsa none
 call bat\Packager.bat
 
-call adt -package -tsa none %SIGNING_OPTIONS% %OPTIONS% -target bundle %OUTPUT% %APP_XML% %FILE_OR_DIR%
+call adt -package -tsa none %SIGNING_OPTIONS% %OPTIONS% -target bundle %OUTPUT% %APP_XML% %FILE_OR_DIR% icon
 
 pause

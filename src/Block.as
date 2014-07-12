@@ -6,7 +6,7 @@ package
 	
 	/**
 	 * ...
-	 * @author furaibo
+	 * @author jun
 	 */
 	public class Block 
 	{

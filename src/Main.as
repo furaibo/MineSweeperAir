@@ -16,7 +16,7 @@ package
 	
 	/**
 	 * ...
-	 * @author furaibo
+	 * @author jun
 	 */
 	public class Main extends Sprite
 	{
@@ -384,6 +384,9 @@ package
 			
 			// 現在のゲーム盤を消去する
 			stage.removeChild(d);
+			
+			// 戻るボタンを消去する
+			stage.removeChild(sp_back);
 			
 			// リトライボタンを不可視にする
 			sp_retry.visible = false;

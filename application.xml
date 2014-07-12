@@ -1,27 +1,35 @@
-<?xml version="1.0" encoding="utf-8" ?> 
+﻿<?xml version="1.0" encoding="utf-8"?>
 <application xmlns="http://ns.adobe.com/air/application/3.6">
-	
-	<id>MineSweeperAir</id> 
-	<versionNumber>1.0</versionNumber> 
-	<filename>MineSweeperAir</filename> 
-	
-	<name>MineSweeperAir</name> 
-	<description></description> 
-	<copyright></copyright> 
-	
-	<initialWindow> 
-		<title>MineSweeperAir</title> 
-		<content>MineSweeperAir.swf</content> 
-		<systemChrome>standard</systemChrome> 
-		<transparent>false</transparent> 
-		<visible>true</visible> 
-		<minimizable>true</minimizable> 
-		<maximizable>false</maximizable> 
-		<resizable>false</resizable> 
-	</initialWindow> 
-	
-	<!-- 
+  <id>MineSweeperAir</id>
+  <versionNumber>1.0</versionNumber>
+  <filename>MineSweeperAir</filename>
+  <name>
+    <text xml:lang="ja">MineSweeperAir</text>
+  </name>
+  <description>
+    <text xml:lang="ja">Adobe Airアプリのマインスイーパです。</text>
+  </description>
+  <copyright>Copy Right (c)furaibo,2014 All rights received.</copyright>
+  <initialWindow>
+    <title>MineSweeperAir</title>
+    <content>MineSweeperAir.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <minimizable>true</minimizable>
+    <maximizable>false</maximizable>
+    <resizable>false</resizable>
+  </initialWindow>
+  <icon>
+    <image16x16>icons/MineSweeperAir16.png</image16x16>
+    <image32x32>icons/MineSweeperAir32.png</image32x32>
+    <image48x48>icons/MineSweeperAir48.png</image48x48>
+    <image128x128>icons/MineSweeperAir128.png</image128x128>
+  </icon>
+  <!-- 
 	More options:
 	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
 	-->
+  <supportedLanguages>ja</supportedLanguages>
+  <supportedProfiles>desktop</supportedProfiles>
 </application>

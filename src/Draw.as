@@ -13,7 +13,7 @@ package
 	
 	/**
 	 * ...
-	 * @author furaibo
+	 * @author jun
 	 */
 	public class Draw extends Sprite
 	{	
